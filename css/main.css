@@ -13,17 +13,14 @@
 
 .card:hover .text {
     width: 400px;
-    height: 230px;
+    height: 233px;
     margin-left: -50px;
     margin-right: 50px;
+    box-shadow: 0px 0px 20px 20px;
     background-color: rgb(255, 170, 0);
     transform: translateY(-235px);
     transition: all 0.4s linear;
 }
-.text {
-    box-shadow: 0px 0px 20px 20px;
-}
-
 .text-h3 {
     margin-top: 50px;
     padding: 15px;
